@@ -1,0 +1,1 @@
+/opt/llvm70/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/visualinfo.dir/src/visualinfo.c.o  -o bin/visualinfo  -Wl,-rpath,/home/bate/Develop/glew-2.2.0/lib: lib/libGLEW.so.2.2.0 -lSM -lICE -lX11 -lXext -lGL -lGLU -lSM -lICE -lX11 -lXext 

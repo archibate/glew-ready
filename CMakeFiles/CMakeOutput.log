@@ -1,0 +1,270 @@
+The system is: Linux - 5.5.13-arch1-1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/llvm70/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/bate/Develop/glew-2.2.0/CMakeFiles/3.16.5/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2b6f/fast && /usr/bin/make -f CMakeFiles/cmTC_c2b6f.dir/build.make CMakeFiles/cmTC_c2b6f.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c2b6f.dir/testCCompiler.c.o
+/opt/llvm70/bin/cc    -o CMakeFiles/cmTC_c2b6f.dir/testCCompiler.c.o   -c /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c2b6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b6f.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc      -rdynamic CMakeFiles/cmTC_c2b6f.dir/testCCompiler.c.o  -o cmTC_c2b6f 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bff7c/fast && /usr/bin/make -f CMakeFiles/cmTC_bff7c.dir/build.make CMakeFiles/cmTC_bff7c.dir/build
+make[1]: Entering directory '/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o
+/opt/llvm70/bin/cc   -v -o CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm70/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/8.3.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0
+Selected GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/opt/llvm70/bin/clang-7" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.gcno -resource-dir /opt/llvm70/lib/clang/7.0.1 -internal-isystem /usr/local/include -internal-isystem /opt/llvm70/lib/clang/7.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -faddrsig
+clang -cc1 version 7.0.1 based upon LLVM 7.0.1 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /opt/llvm70/lib/clang/7.0.1/include
+ /usr/include
+End of search list.
+Linking C executable cmTC_bff7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff7c.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc     -v -rdynamic CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o  -o cmTC_bff7c 
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /opt/llvm70/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/8.3.0
+Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0
+Selected GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bff7c /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0 -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. -L/opt/llvm70/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crtn.o
+make[1]: Leaving directory '/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/opt/llvm70/lib/clang/7.0.1/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/llvm70/lib/clang/7.0.1/include] ==> [/opt/llvm70/lib/clang/7.0.1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/opt/llvm70/lib/clang/7.0.1/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_bff7c/fast && /usr/bin/make -f CMakeFiles/cmTC_bff7c.dir/build.make CMakeFiles/cmTC_bff7c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/llvm70/bin/cc   -v -o CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm70/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/8.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Selected GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/opt/llvm70/bin/clang-7" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.gcno -resource-dir /opt/llvm70/lib/clang/7.0.1 -internal-isystem /usr/local/include -internal-isystem /opt/llvm70/lib/clang/7.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -faddrsig]
+  ignore line: [clang -cc1 version 7.0.1 based upon LLVM 7.0.1 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/llvm70/lib/clang/7.0.1/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_bff7c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bff7c.dir/link.txt --verbose=1]
+  ignore line: [/opt/llvm70/bin/cc     -v -rdynamic CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o  -o cmTC_bff7c ]
+  ignore line: [clang version 7.0.1 (tags/RELEASE_701/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/llvm70/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/8.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/8.3.0]
+  ignore line: [Found candidate GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Selected GCC installation: /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bff7c /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0 -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. -L/opt/llvm70/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bff7c] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [-L/opt/llvm70/bin/../lib] ==> dir [/opt/llvm70/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_bff7c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/usr/lib64]
+  collapse library dir [/opt/llvm70/bin/../lib] ==> [/opt/llvm70/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/9.3.0;/usr/lib64;/lib64;/opt/llvm70/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/libX11.so;/usr/lib/libXext.so passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a3d7/fast && /usr/bin/make -f CMakeFiles/cmTC_2a3d7.dir/build.make CMakeFiles/cmTC_2a3d7.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2a3d7.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_2a3d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a3d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3d7.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_2a3d7.dir/CheckFunctionExists.c.o  -o cmTC_2a3d7  /usr/lib/libX11.so /usr/lib/libXext.so 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc62c/fast && /usr/bin/make -f CMakeFiles/cmTC_dc62c.dir/build.make CMakeFiles/cmTC_dc62c.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_dc62c.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_dc62c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dc62c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc62c.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_dc62c.dir/CheckFunctionExists.c.o  -o cmTC_dc62c 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55433/fast && /usr/bin/make -f CMakeFiles/cmTC_55433.dir/build.make CMakeFiles/cmTC_55433.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_55433.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_55433.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_55433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55433.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_55433.dir/CheckFunctionExists.c.o  -o cmTC_55433 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f349/fast && /usr/bin/make -f CMakeFiles/cmTC_5f349.dir/build.make CMakeFiles/cmTC_5f349.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5f349.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_5f349.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f349.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_5f349.dir/CheckFunctionExists.c.o  -o cmTC_5f349 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9c28/fast && /usr/bin/make -f CMakeFiles/cmTC_b9c28.dir/build.make CMakeFiles/cmTC_b9c28.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b9c28.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_b9c28.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9c28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c28.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_b9c28.dir/CheckFunctionExists.c.o  -o cmTC_b9c28 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bf7c/fast && /usr/bin/make -f CMakeFiles/cmTC_9bf7c.dir/build.make CMakeFiles/cmTC_9bf7c.dir/build
+make[1]: 进入目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9bf7c.dir/CheckFunctionExists.c.o
+/opt/llvm70/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_9bf7c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9bf7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bf7c.dir/link.txt --verbose=1
+/opt/llvm70/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_9bf7c.dir/CheckFunctionExists.c.o  -o cmTC_9bf7c  -lICE 
+make[1]: 离开目录“/home/bate/Develop/glew-2.2.0/CMakeFiles/CMakeTmp”
+
+
+

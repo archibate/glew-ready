@@ -1,0 +1,11 @@
+/home/bate/Develop/glew-2.2.0/CMakeFiles/install/strip.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/install/local.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/edit_cache.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/rebuild_cache.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/glew_s.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/visualinfo.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/glew.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/install.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/list_install_components.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/glewinfo.dir
+/home/bate/Develop/glew-2.2.0/CMakeFiles/uninstall.dir
