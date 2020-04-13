@@ -1,1 +1,0 @@
-/opt/llvm70/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/glewinfo.dir/src/glewinfo.c.o  -o bin/glewinfo  -Wl,-rpath,/home/bate/Develop/glew-2.2.0/lib: lib/libGLEW.so.2.2.0 -lSM -lICE -lX11 -lXext -lGL -lGLU -lSM -lICE -lX11 -lXext 

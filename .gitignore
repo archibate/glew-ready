@@ -6,11 +6,7 @@
 /build/*/*.suo
 /build/*/*.vcxproj.user
 /build/*/tmp/
-/build/cmake/CMakeFiles/
-/build/cmake/CMakeCache.txt
-/build/cmake/cmake_install.cmake
-/build/cmake/cmake_uninstall.cmake
-/build/cmake/Makefile
+/build/cmake/*
 /auto/extensions
 /auto/registry
 /bin
@@ -20,3 +16,5 @@
 .DS_Store*
 /glew-*.zip
 /glew-*.tgz
+/CMake*
+/cmake_*
